@@ -254,3 +254,47 @@ transform: scale(1.5);
     background-color: rgb(95, 88, 88);
     padding: 1rem;
 }
+
+@media (max-width:600px){
+    .navbar{
+        flex-direction:column;
+    }
+    #logo{
+      flex-direction: column;
+    }
+    #waves-bottom{
+       flex-direction: column; 
+    }
+    #waves-bottom input{
+        margin: .5rem;
+    }
+    #add-div{
+       flex-direction: column;
+    }
+    #hotads{
+        text-align: left;
+        margin-left: 5rem;
+    }
+    #add-img{
+        
+        margin-left: 4rem;
+    }
+    #add-details{
+        text-align: center;
+    }
+    #add-details h3{
+        color: brown;
+    }
+    #add-details h4{
+      inline-size: 30rem;
+      text-align: center;
+      margin-left: 15rem;
+    }
+    #acoustic-div{
+      flex-direction: column;
+    }
+    .contacts{
+      flex-direction: column;
+    }
+  
+}
