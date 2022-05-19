@@ -206,3 +206,51 @@ i{
     text-align: left;
     padding-left: 1rem;
 }
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+#about{
+    inline-size: 27rem;
+}
+#about h1{
+    color: brown
+}
+#categories h2{
+    color: brown;
+}
+#categories h4:hover{
+transform: scale(1.5);
+}
+#navigation h2{
+    color: brown;
+}
+#navigation h4:hover{
+    transform: scale(1.5);
+}
+
+#country-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#country-div h3{
+    color: brown;
+}
+#country-div button{
+    height: 2rem;
+    width: 6rem;
+    margin-left: .8rem;
+    font-weight: bold;
+   
+}
+#country-div button:hover{
+    background-color: black;
+    color: white;
+}
+.copyright{
+    background-color: rgb(95, 88, 88);
+    padding: 1rem;
+}
